@@ -25,6 +25,12 @@ ___
 docker compose up -d
 ```
 
+1.2for standalone weaiate
+
+```
+ docker run -p 8080:8080 -p 50051:50051 cr.weaviate.io/semitechnologies/weaviate:1.24.10
+```
+
 2. Install Python requirements: 
 
 ```
